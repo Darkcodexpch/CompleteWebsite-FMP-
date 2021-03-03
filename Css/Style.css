@@ -1,0 +1,383 @@
+/* Basic Custom Css Setting */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* NavBar */
+.navbar ul li a , .dropdown ul li a{
+    margin: 5px 9px;
+    border-radius: 50px;
+    padding:  7px 5px;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: capitalize;
+    
+}
+.dropdown ul li a{
+    margin: 15px 0px !important;
+}
+
+.navbar ul li a:hover{
+    background-color: #343a40 !important;
+    color: white !important;
+    border-radius: 20px 0px 20px 0px;
+}
+.ab::after {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 600; 
+    content: "\f107";
+    padding: 0px 3px;
+    margin: 0px 2px;
+  }
+  
+  /* .dropdown{
+    background-color: #fff !important;
+    display: none;
+    width: max-content;
+    position: absolute !important;
+  }
+  .dropdown li {
+      list-style: none;
+      width: 100%;
+
+    }
+
+  .dropdown a{
+    text-decoration: none !important;
+    color: #333 !important;
+    border-radius: 0px !important;
+    width: 100%;
+    text-transform: capitalize !important;
+    display: inline-block;
+    margin: 0px !important; }
+    
+  .nav-link:hover + .dropdown{
+      display: block;
+  }
+  .dropdown:hover{
+      display: block;
+  } */
+  /* Navbar done */
+  /* header styling */
+  .head{
+    background-image: linear-gradient(rgba(0, 168, 255, 0.3), rgba(0, 168, 255, 0.3)), url("../Images/laten.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    clip-path: polygon(100% 0%,100% 77%,50% 100%,0 75%,0 0);
+  }
+  .head::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+    opacity: .3;
+    z-index: -1;
+  }
+  .navbar::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+    opacity: .3;
+    z-index: -1;
+  }
+  /* header styling End */
+  /* text styling maindiv */
+  .header-section{
+  height: inherit;
+  width: 100%;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+.center-div{
+  height: auto;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+}
+  
+  .centerDiv_button a{
+    border:1px solid #fff;
+    border-radius: 100px;
+    margin: 0px 5px;
+    padding: 12px 35px;
+    outline: none;
+    color:#fff;
+    font-size: 1rem;
+    line-height: 1.4;
+    text-align: center; }
+
+    .centerDiv_button a:hover{  
+      background-color: black;
+      color: #fff;
+      text-decoration: none;
+      box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    }
+    
+    .center-div p{
+      font-size: 1.3rem;
+      padding: 10px 0 20px 0;
+      color: #fff;
+    }
+
+  /* text styling maindiv Done */
+/* Intro start */
+.intro{
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+.intro h1,.services h1{
+  font-weight: 600;
+  letter-spacing: 4px;
+  font-family: 'Roboto', sans-serif;
+}
+.intro h1::first-letter,.services h1::first-letter,.aboutUs h1::first-letter,.gallery h1::first-letter{
+  font-size: 80px;
+}
+.intro p{
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 15px;
+  text-align: justify;
+}
+/* intro end */
+
+/* Project Done */
+
+.projectDone{
+  background-color: #0c5f76;
+  height: auto;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* Project Done End */
+
+/* Services Start */
+.services{
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+.service{
+  padding: 10px 20px !important;
+  margin: 10px 20px !important;
+  cursor: pointer;
+
+}
+.services p{
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.service:hover{
+  transform: translateY(-10%);
+  transition: 1s;
+}
+/* services end */
+/* aboutUs start */
+.aboutUs{
+  height: auto;
+  width: 100%;
+}
+.imageEdits img{
+  /* border: 7px solid  #0c5f76; */
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 2px;
+}
+.ul-check li{
+  padding: 10px 0px;
+  margin: 5px 0px;
+}
+.ul-check ::before{
+content: "\f00c";
+font-family: "Font Awesome 5 Free";
+color: green;
+margin: 0px 6px;
+padding: 2px 5px;
+}
+/* aboutUs end */
+/* Gallery Start */
+.gallery{
+  height: auto;
+  width: 100%;
+}
+.gallery h1{
+  letter-spacing: 
+  3px;
+}
+/* Gallery End */
+
+/* footer */
+footer{
+  width: 100%;
+  height: auto;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.dark{
+  color: #bbbb;
+  font-family: 'Roboto', sans-serif !important;
+}
+.dark h5{
+	color: white;
+	margin-left: 40px;
+	margin-top:  20px;
+}
+.dark h6{
+	margin-left: 40px;
+	padding: 0px;
+	color:green;
+}
+.dark1{
+	color: #bbbb;
+
+}
+.dark1 h5{
+color: white;
+margin-left: 20px;
+margin-bottom: 10px;
+
+}
+
+.dark1 ul li{
+	display: inline;
+	padding-left: 15px;
+  margin-left: 10px;
+  
+}
+
+.dark ul{
+  list-style: none;
+}
+.dark1 li{
+  padding: 5px 5px 5px 0px;
+  
+
+}
+.dark1 i{
+	font-size: 15px;
+	padding: 5px 5px 5px 0px;
+	margin: auto;
+
+}
+.footer-text{
+	color: green;
+}
+/* end footer */
+/* clients table */
+table{
+  cursor: pointer;
+  font-size: 15px;
+}
+table td{
+  padding: 5px 0px !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 400;
+}
+
+/* clients table End*/
+/* ourteam */
+.technical{
+  height: auto;
+  width: auto;
+  margin: 50px 0px !important;
+ 
+}
+.technical h1{
+  letter-spacing: 3px;
+}
+.technical p{
+  font-family: 'Roboto', sans-serif !important;
+  letter-spacing: 1px;
+  font-weight: 500;
+  text-align: justify;
+  padding: 15px 10px !important;
+}
+.technical img{
+  cursor: pointer;
+}
+/* ourteam end */
+/* contact start */
+.contactUs{
+  height: 570px;
+  width: auto;
+  margin: 5px 0px !important;
+}
+.contactUs label,.contactUs input,.contactUs button{
+  font-family: 'Roboto', sans-serif !important;
+
+}
+form{
+  padding: 10px 20px !important;
+}
+/* contact end */
+@media only screen and (max-width: 600px) {
+  .gallery img {
+   margin-bottom: 10px !important;
+  }
+  .gallery h1{
+    font-size: 20px !important;
+    font-weight: bold !important;
+    letter-spacing: 0px !important;
+  }
+
+  .center-div{
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: 30% !important;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+  }
+    
+    .centerDiv_button a{
+      border:1px solid #fff;
+      border-radius: 100px;
+      margin: 0px 5px;
+      padding: 12px 35px;
+      outline: none;
+      color:#fff;
+      font-size: 1rem;
+      line-height: 1.4;
+      text-align: center; }
+      .topBar {
+        text-align: center !important;
+        margin: 3px 0px !important;
+      }
+      .topBarright {
+        text-align: center !important;
+        margin: 3px 0px !important;
+      }
+
+}
+
+.gl{
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 2px;
+}
